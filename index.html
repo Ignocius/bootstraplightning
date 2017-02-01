@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bstrap.css">
+    <title>Bootstrap page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar navbar-fixed-top">
+      <section class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+
+            <span class="sr-only"></span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="pull-left img-responsive"><img id="logo" src="logo.png" alt="logo test"></a>
+        </div>
+
+        <section class="collapse navbar-collapse" id="main-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a><span class="sr-only">(current)</span></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Phone</a></li>
+                <li class="separator" class="diveder"></li>
+                <li><a href="#">Set Appointment</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default" name="button">Submit</button>
+          </form>
+        </section>
+    </section>
+    </nav>
+
+    <main>
+      <article class="infobar jumbotron">
+        <p class="text-center">Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
+Bootstrap is the second most-starred project on GitHub, with more than 105,000 stars and 47,000 forks.</p>
+      </article>
+
+      <aside class="jumbotron">
+        <h2 class="text-center text-info">Some input</h2>
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-sm-6 col-xs-6">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" name="button">Send!</button>
+              </span>
+              <input type="text" class="form-control" name="" value="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-sm-6 col-xs-6">
+            <div class="input-group">
+              <input type="text" class="form-control" name="" value="">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default glyphicon-envelope" name="button"></button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <article class="button-example jumbotron">
+        <h2 class="text-info text-center">Button exampe</h2>
+        <div class="btn-group.btn-group-justified">
+          <button type="button" class="btn" name="button">Push me</button>
+          <button type="button" class="btn" name="button">Push me</button>
+          <button type="button" class="btn" name="button">Push me</button>
+        </div>
+        <div class="">
+          <button type="button" class="btn btn-primary" name="button">Push me</button>
+        </div>
+        <div class="">
+          <button type="button" class="btn btn-success" name="button">Push me</button>
+        </div>
+        <div class="button-desing btn-group">
+          <button type="button" class="btn btn-group btn-toolbar" role="group" name="button"></button>
+          <button type="button" class="btn btn-group btn-danger" role="group" name="button"></button>
+          <button type="button" class="btn btn-group btn-success" role="group" name="button"></button>
+          <button type="button" class="btn btn-groupbtn-warning" role="group" name="button"></button>
+        </div>
+      </article>
+
+      <article class="jumbotron">
+        <p>content</p>
+      </article>
+
+      <article class="jumbotron">
+        <p>content</p>
+      </article>
+   </main>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- <script src="jquerytest.js"></script> -->
+  </body>
+</html>
