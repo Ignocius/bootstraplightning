@@ -22,3 +22,12 @@ h2 {
   width: 50px;
   height: 50px;
 }
+
+.colorme {
+  background-color: gray;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

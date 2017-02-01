@@ -98,11 +98,66 @@ Bootstrap is the second most-starred project on GitHub, with more than 105,000 s
       </article>
 
       <article class="jumbotron">
-        <p>content</p>
+        <div class="container center">
+  <!-- You can constrain the columns if you want -->
+          <div class="row">
+  <!-- We could move it to the right with a blank div
+  <div class="col-md-6"></div> -->
+
+  <!-- Or we could use offset -->
+            <div class="col-md-6 col-md-offset-6">
+
+              <!-- The table class adds nice spacing and the other classes add additional style -->
+              <table class="table table-bordered table-striped table-hover">
+              <thead>
+              <tr>
+              <td colspan="4">Best Baseball Players</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+
+              <!-- You can adjust the width of table columns as well -->
+              <th class="col-md-2"></td>
+
+              <!-- Use text alignment like text-center or text-right -->
+              <th class="text-center">Average</td>
+              <th class="text-center">RBIs</td>
+              <th class="text-center">Homeruns</td>
+              </tr>
+              <tr>
+              <td><a href="#">Hank Aaron*</a></td>
+              <td>.305</td>
+              <td>2297</td>
+              <td>755</td>
+              </tr>
+              <tr>
+              <td><a href="#">Babe Ruth*</a></td>
+              <td>.342</td>
+              <td>2214</td>
+              <td>714</td>
+              </tr>
+              <tr>
+              <td><a href="#">Barry Bonds</a></td>
+              <td>.298</td>
+              <td>1996</td>
+              <td>762</td>
+              </tr>
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </article>
 
-      <article class="jumbotron">
-        <p>content</p>
+      <article class="colorme jumbotron">
+        <div class="container">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+              <span class="sr-only">40% Complete</span>
+            </div>
+          </div>
+        </div>
       </article>
    </main>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
